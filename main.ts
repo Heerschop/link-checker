@@ -43,7 +43,7 @@ async function main() {
 
     results[status]++;
 
-    console.log(link.replace(fqdn, '').padEnd(200), status);
+    console.log(link.replace(fqdn, '').padEnd(100), status);
 
     result += link + ',' + status + '\n';
   }
